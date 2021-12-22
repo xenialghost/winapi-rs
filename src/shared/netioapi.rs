@@ -26,6 +26,7 @@ use shared::ntdef::{
 use shared::ws2def::{ADDRESS_FAMILY, SCOPE_ID, ScopeLevelCount};
 use shared::ws2ipdef::{PSOCKADDR_IN6_PAIR, SOCKADDR_IN6, SOCKADDR_INET};
 const ANY_SIZE: usize = 1;
+use shared::ws2ipdef::SOCKADDR_INET;
 pub type NETIO_STATUS = DWORD;
 pub type NETIOAPI_API = NETIO_STATUS;
 ENUM!{enum MIB_NOTIFICATION_TYPE {
